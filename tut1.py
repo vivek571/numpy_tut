@@ -15,11 +15,11 @@ b = np.array([
 print(b)
 
 print("3D Array")
-c=np.array([[
+c=np.array([
     [1,2,3,4,5],
-    [11,12,13,14,15],
-    [21,22,23,24,25]
-]])
+    [6,7,8,9,10],
+    [11,12,13,14,15]
+])
 print(c)
 #Type of object
 print(type(a))
@@ -35,4 +35,11 @@ print(b.shape)
 print(c.shape)
 
 #Get data type
+print(a.dtype)
+print(b.dtype)
 print(c.dtype)
+
+#Inverst rows with columns
+print(a.transpose())
+print(b.transpose())
+print(c.transpose())
